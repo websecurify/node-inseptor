@@ -4,6 +4,12 @@ Inseptor helps intercept and debug HTTP and HTTPs traffic in node-based servers 
 
 ## Usage
 
+To install use npm or npm-compatible package manager:
+
+```bash
+$ npm install --save-dev inseptor
+```
+
 Inspetor is currently provided as a library. To hook a node server for inspection all you have to do is to invoke the `inseptServer` function on a node server object. The call must be preceded by a call to `startInseptServer` to initiate a server which acts as an intermediary between your node application and the front end which will help you debug the traffic. Here is an example borrowed from the demo script part of this package:
 
 ```javascript
