@@ -7,6 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "demo": "node demo/demo",
     "test": "true"
   },
   "repository": {
