@@ -34,13 +34,17 @@ if (process.env.NODE_ENV !== 'production' && process.env.INSEPTOR === 'yes') {
 
 Once the server is started you can use a compatible client such as SecApps [HTTPView](https://httpview.secapps.com) to connect and debug incoming and outgoing connections. This is done via HTTPView's feeds feature.
 
-![docs/images/01.png]
+![/docs/images/01.png]
 
 Copy the Inseptor endpoint URL and navigate to HTTPView's Feed Settings. Enter the URL as a new feed. Ensure that the checkbox is ticked before recording.
 
-![docs/images/02.png]
+![/docs/images/02.png]
 
-Press the record button. You should see a connection debug in your console with the details of the connecting client. Now every request to your server will be recorded in HTTPView for inspection. You can see all the status codes, headers, message bodies, etc. You can even reply the requests and customise with the help of the built-in encoders, decoders and variables substitutions. Refer to [SecApps](https://secapps.com) for more information.
+Press the record button. You should see a connection debug in your console with the details of the connecting client. Now every request to your server will be recorded in HTTPView for inspection. You can see all the status codes, headers, message bodies, etc. You can even reply the requests and customise with the help of the built-in encoders, decoders and variables substitutions.
+
+![/docs/images/03.png]
+
+Refer to [SecApps](https://secapps.com) for more information.
 
 ## Purpose
 
@@ -54,12 +58,14 @@ Messages are exchanged one way in the current version - from the server to the c
 
 Message type 3 has the following structure:
 
+```
 +----------+-----------------------+----------------+-----------------+
 | Header   | Request Buffer Length | Request Buffer | Response Buffer |
 | UInt32BE | UInt32BE              | Buffer         | Buffer          |
 |          |                       |                |                 |
 | 3        |                       |                |                 |
 +----------+-----------------------+----------------+-----------------+
+```
 
 This message is sent to clients connected to the web socket.
 
