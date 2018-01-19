@@ -1,0 +1,33 @@
+{
+  "name": "inseptor",
+  "version": "0.0.1",
+  "description": "Package for inspecting traffic of node modules and projects.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websecurify/node-inseptor.git"
+  },
+  "keywords": [
+    "inspect",
+    "websecurify",
+    "secapps",
+    "http",
+    "https",
+    "ssl"
+  ],
+  "author": "pdp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/websecurify/node-inseptor/issues"
+  },
+  "homepage": "https://github.com/websecurify/node-inseptor#readme",
+  "dependencies": {
+    "ws": "^4.0.0"
+  }
+}
