@@ -89,4 +89,4 @@ The following options can be passed to `startInseptServer` function:
 
 ## Contributions
 
-Contributions are welcome. Do a pull request, open issues or get in touch on [twitter](https://twitter.com/websecurify), [facebook](https://facebook.com/websecurify/), [reddit](https://www.reddit.com/r/secapps/) or anywhere else you can get hold of our team.
+Contributions are welcome. Do a pull request, open issues or get in touch on [twitter](https://twitter.com/websecurify), [facebook](https://facebook.com/websecurify/) or anywhere else you can get hold of our team.
