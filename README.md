@@ -1,3 +1,6 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d2bd963ada3e4e3ba208759ffca61096)](https://www.codacy.com/app/Websecurify/node-inseptor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=websecurify/node-inseptor&amp;utm_campaign=Badge_Grade)
+[![Follow on Twitter](https://img.shields.io/twitter/follow/websecurify.svg?logo=twitter)](https://twitter.com/websecurify)
+
 # node-inseptor
 
 Inseptor helps intercept and debug HTTP and HTTPs traffic in node-based servers without the need to configure proxies, deal with SSL issues, adding exceptions to certificate pinning issues and much more.
